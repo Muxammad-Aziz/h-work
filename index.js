@@ -24,27 +24,27 @@
 // );
 
 
-// class Animal {
-//     constructor(species, eat) {
-//         this.species = species;
-//         this.eat = eat;
-//     }
+class Animal {
+    constructor(species, eat) {
+        this.species = species;
+        this.eat = eat;
+    }
 
-//     start() {
-//         return this.species + " " + this.species;
-//     }
+    start() {
+        return this.species + " " + this.species;
+    }
 
-//     stop() {
-//         return this.species + " " + this.eat;
-//     }
-// }
+    stop() {
+        return this.species + " " + this.eat;
+    }
+}
 
-// let species = prompt("Введите животного:");
-// let eat = prompt("Чем питается " + "?");
+let species = prompt("Введите животного:");
+let eat = prompt("Чем питается " + "?");
 
-// let wildAnimal = new Animal(species, eat);
+let wildAnimal = new Animal(species, eat);
 
-// console.log(
-//     wildAnimal.start(), "\n",
-//     wildAnimal.stop()
-// );
+console.log(
+    wildAnimal.start(), "\n",
+    wildAnimal.stop()
+);
